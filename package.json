@@ -1,0 +1,10 @@
+{
+  "name": "midi-instruments",
+  "version": "1.0.0",
+  "description": "A list of all the instruments used in midi file.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "just-snake-case": "^1.1.0"
+  }
+}
