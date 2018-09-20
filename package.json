@@ -4,6 +4,7 @@
   "description": "A list of all the instruments used in midi file.",
   "main": "index.js",
   "license": "MIT",
+  "typings": "index.d.ts",
   "repository": {
     "url": "https://github.com/ritz078/midi-instruments"
   },

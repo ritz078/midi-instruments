@@ -482,42 +482,42 @@ const instruments = {
   "96": {
     "name": "FX 1 (rain)",
     "group": "Synth Effects",
-    "value": "f_x_1_rain"
+    "value": "fx_1_rain"
   },
   "97": {
     "name": "FX 2 (soundtrack)",
     "group": "Synth Effects",
-    "value": "f_x_2_soundtrack"
+    "value": "fx_2_soundtrack"
   },
   "98": {
     "name": "FX 3 (crystal)",
     "group": "Synth Effects",
-    "value": "f_x_3_crystal"
+    "value": "fx_3_crystal"
   },
   "99": {
     "name": "FX 4 (atmosphere)",
     "group": "Synth Effects",
-    "value": "f_x_4_atmosphere"
+    "value": "fx_4_atmosphere"
   },
   "100": {
     "name": "FX 5 (brightness)",
     "group": "Synth Effects",
-    "value": "f_x_5_brightness"
+    "value": "fx_5_brightness"
   },
   "101": {
     "name": "FX 6 (goblins)",
     "group": "Synth Effects",
-    "value": "f_x_6_goblins"
+    "value": "fx_6_goblins"
   },
   "102": {
     "name": "FX 7 (echoes)",
     "group": "Synth Effects",
-    "value": "f_x_7_echoes"
+    "value": "fx_7_echoes"
   },
   "103": {
     "name": "FX 8 (sci-fi)",
     "group": "Synth Effects",
-    "value": "f_x_8_sci_fi"
+    "value": "fx_8_scifi"
   },
   "104": {
     "name": "Sitar",
