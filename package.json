@@ -1,6 +1,6 @@
 {
   "name": "midi-instruments",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A list of all the instruments used in midi file.",
   "main": "index.js",
   "license": "MIT",
