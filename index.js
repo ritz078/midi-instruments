@@ -19,7 +19,7 @@ const instruments = {
   "3": {
     "name": "Honky-tonk Piano",
     "group": "Piano",
-    "value": "honky_tonk_piano"
+    "value": "honkytonk_piano"
   },
   "4": {
     "name": "Electric Piano 1",
