@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+just-values@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/just-values/-/just-values-1.1.0.tgz#67d97562d84cd3faa002dabf59644f49c5b302bb"
+  integrity sha512-iyVaxuZetKmAqaFv3TX7EnOD6lHH23re8fYwlFXs6FTSGIAfuidcKy1XIMdCfMX3FKwybnn/Ig/E0HkuNM/d3g==

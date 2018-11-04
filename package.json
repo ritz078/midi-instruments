@@ -12,5 +12,7 @@
     "name": "Ritesh Kumar",
     "url": "https://riteshkr.com"
   },
-  "dependencies": {}
+  "dependencies": {
+    "just-values": "^1.1.0"
+  }
 }

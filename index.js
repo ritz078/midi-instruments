@@ -1,3 +1,5 @@
+const values = require("just-values");
+
 const instruments = {
   "0": {
     "name": "Acoustic Grand Piano",
@@ -646,13 +648,13 @@ function getInstrumentById(id) {
 }
 
 function getInstrumentByName(name) {
-  return instruments.find(function(instrument) {
+  return values(instruments).find(function(instrument) {
     return instrument.name === name
   })
 }
 
 function getInstrumentNames() {
-  return instruments.map(function(instrument) {
+  return values(instruments).map(function(instrument) {
     return instrument.name === name
   });
 }
