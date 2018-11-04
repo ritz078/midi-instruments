@@ -659,9 +659,16 @@ function getInstrumentNames() {
   });
 }
 
+function getInstrumentByValue(value) {
+  return values(instruments).find(function(instrument) {
+    return instrument.value === value
+  })
+}
+
 module.exports = {
   getInstrumentById: getInstrumentById,
   getInstrumentByName: getInstrumentByName,
   getInstrumentNames: getInstrumentNames,
-  instruments: instruments
+  instruments: instruments,
+  getInstrumentByValue: getInstrumentByValue
 }
