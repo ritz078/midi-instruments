@@ -1,6 +1,6 @@
 const _values = require("just-values");
 
-interface Instrument {
+export interface Instrument {
 	name: string;
 	group: string;
 	value: string;
