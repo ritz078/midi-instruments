@@ -1,6 +1,14 @@
-const values = require("just-values");
+const _values = require("just-values");
 
-const instruments = {
+interface Instrument {
+	name: string;
+	group: string;
+	value: string;
+}
+
+export const instruments: {
+	[key: string]: Instrument
+} = {
   "0": {
     "name": "Acoustic Grand Piano",
     "group": "Piano",
@@ -641,34 +649,34 @@ const instruments = {
     "group": "Sound effects",
     "value": "gunshot"
   }
-}
+};
 
-function getInstrumentById(id) {
+export function getInstrumentById(id: string): Instrument {
   return instruments[id]
 }
 
-function getInstrumentByName(name) {
-  return values(instruments).find(function(instrument) {
+export function getInstrumentByName(name: string): Instrument {
+  return _values(instruments).find(function(instrument) {
     return instrument.name === name
   })
 }
 
-function getInstrumentNames() {
-  return values(instruments).map(function(instrument) {
-    return instrument.name === name
+export function getInstrumentNames(): string[] {
+  return _values(instruments).map(function(instrument) {
+    return instrument.name
   });
 }
 
-function getInstrumentByValue(value) {
-  return values(instruments).find(function(instrument) {
+export function getInstrumentByValue(value: string): Instrument {
+  return _values(instruments).find(function(instrument) {
     return instrument.value === value
   })
 }
 
-module.exports = {
-  getInstrumentById: getInstrumentById,
-  getInstrumentByName: getInstrumentByName,
-  getInstrumentNames: getInstrumentNames,
-  instruments: instruments,
-  getInstrumentByValue: getInstrumentByValue
+export function getInstrumentIdByName (name: string): string {
+  return Object.keys(instruments).find(instrumentId => instruments[instrumentId].name === name);
+}
+
+export function getInstrumentIdByValue (value: string): string {
+  return Object.keys(instruments).find(instrumentId => instruments[instrumentId].value === value);
 }
